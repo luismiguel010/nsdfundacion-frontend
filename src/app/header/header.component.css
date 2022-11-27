@@ -32,7 +32,7 @@
       height: 60px;
       display: flex;
       align-items: center;
-      background-color: #301268;
+      background-color: white;
       color: white;
       font-weight: 600;
   }
@@ -294,6 +294,30 @@
 
   .button {
     margin: 5px;
+    background-color: white;
+  }
+
+  .btn-primary:focus{
+    background-color: #1a1569;
+    color: white;
+  }
+
+  button.btn-primary:hover{
+    background-color: #1a1569;
+  }
+
+  .btn-primary{
+    background-color: white;
+    color: #1a1569;
+    border: white;
+  }
+
+  button.btn-change-world:hover{
+    background-color: white;
+  }
+
+  .btn-change-world{
+    color: #1a1569;
   }
   
 

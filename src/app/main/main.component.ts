@@ -6,5 +6,6 @@ import { Component } from '@angular/core';
   styleUrls: ['./main.component.css']
 })
 export class MainComponent {
-  title = 'nsdfundacion-app';
+  images = [944, 1011, 984].map((n) => `https://picsum.photos/id/${n}/900/500`);
+
 }
