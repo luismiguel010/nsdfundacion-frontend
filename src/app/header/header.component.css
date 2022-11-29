@@ -313,13 +313,13 @@
   }
 
   button.btn-change-world:hover{
-    background-color: white;
-    color:#1a1569;
+    background-color: #1a1569;
+    color:white;
   }
 
   .btn-change-world{
-    background-color: #1a1569;
-    color: white;
+    background-color: white;
+    color: #1a1569;
   }
   
 
