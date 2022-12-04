@@ -10,6 +10,7 @@ import { MainComponent } from './main/main.component';
 import { QuienesSomosComponent } from './pages/quienes-somos/quienes-somos.component';
 import { LegalComponent } from './pages/legal/legal.component';
 import { ContactenosComponent } from './pages/contactenos/contactenos.component';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
 const routes: Routes = [
   { path: '', redirectTo: '/', pathMatch: 'full' },
@@ -32,6 +33,7 @@ const routes: Routes = [
   imports: [
     BrowserModule,
     RouterModule.forRoot(routes),
+    NgbModule
   ],
   providers: [],
   bootstrap: [AppComponent]

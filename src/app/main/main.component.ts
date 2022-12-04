@@ -1,4 +1,6 @@
 import { Component } from '@angular/core';
+import { NgbSlideEvent, NgbSlideEventSource } from '@ng-bootstrap/ng-bootstrap';
+
 
 @Component({
   selector: 'app-main',
@@ -6,6 +8,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./main.component.css']
 })
 export class MainComponent {
-  images = [944, 1011, 984].map((n) => `https://picsum.photos/id/${n}/900/500`);
 
 }
