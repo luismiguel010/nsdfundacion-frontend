@@ -306,6 +306,7 @@
 
   button.btn-primary:hover{
     background-color: #1a1569;
+    color: white;
   }
 
   .btn-primary{
