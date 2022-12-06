@@ -16,12 +16,12 @@
 }
 
 .title{
-    color: #1a1569;
+    color: white;
     font-style: italic;
 }
 
 .eslogan{
-    color: #1a1569;
+    color: white;
     font-style: oblique;
     text-align: center;
 }
@@ -34,6 +34,7 @@ ngb-carousel {
 ngb-carousel img {
     width: 100%;
     outline: none;
+    min-height: 500px;
 }
 
 ngb-carousel {
@@ -72,11 +73,12 @@ ngb-carousel {
 }
 
 .carousel-caption{
-    color: #1a1569;
+    color: white;
 }
 
 .btn-primary{
-    background-color: #1a1569;
-    border-color: #1a1569;
+    background-color: white;
+    border-color: white;
+    color: #1a1569;
 }
 

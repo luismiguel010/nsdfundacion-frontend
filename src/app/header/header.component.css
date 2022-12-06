@@ -45,7 +45,7 @@
 
   .toolbar #twitter-logo {
       height: 40px;
-      margin: 0 8px;
+      margin: 8px;
   }
 
   .toolbar #youtube-logo {
@@ -325,4 +325,29 @@
     color: #1a1569;
   }
   
+.navbar {
+    background-color: rgb(255, 255, 255);
+    color: white;
+    height: auto;
+    width: 100%;
+    padding-left: 60px;
+    padding-right: 60px;
+    display: block;
+}
 
+.navbar-nav1 {
+    flex-direction: row;
+}
+
+@media screen and (max-width:700px) {
+    .navbar .container-fluid {
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width:525px) {
+    .container-fluid div a {
+        float: none;
+        width: 100%;
+    }
+}
