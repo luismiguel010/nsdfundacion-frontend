@@ -9,8 +9,8 @@ import { Component } from '@angular/core';
 export class HeaderComponent {
 
   constructor(public translate: TranslateService) {
-    translate.addLangs(['es', 'en']);
-    translate.setDefaultLang('es');
+    translate.addLangs(['🇪🇸', '🇺🇸']);
+    translate.setDefaultLang('🇪🇸');
   }
 
   switchLang(lang: string) {
